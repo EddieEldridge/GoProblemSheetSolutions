@@ -15,33 +15,26 @@ func main(){
 
 	// Assign variables
 	var i uint;
-	var k uint;
 	var output uint=1;
-	var sum uint;
+	var sum uint=0;
 
 
 	// Change the value of number to choose what number 
 	// to get the factorial of
 	var number uint = 10;
 
-	// For loop to calculate factorial
+	// For loop to calculate factorial and sum
 	for i=1; i<=number; i++{
 		
 		output = output * i;
+		sum = sum + i;
 	}
 
-	// For loop to calculate factorial
-	for k =1; k<=number; k++{
-		
-		stringSum := strconv.Format
-		
-	}
-	
 	// Print result of calcFactorial to the screen
 	fmt.Printf("%d! =  %d\n",number,output)
 
 	// Print result of sum of factorial digits to the screen
-	fmt.Printf("Sum of numbers in factorial result = %d", sum)
+	fmt.Printf("Sum of numbers in factorial result = %d (not correct)", sum)
 	
 }
 
