@@ -14,21 +14,34 @@ import "fmt"
 func main(){
 
 	// Assign variables
-	var i uint = 1;
-	var output uint = 1;
+	var i uint;
+	var k uint;
+	var output uint=1;
+	var sum uint;
+
 
 	// Change the value of number to choose what number 
 	// to get the factorial of
-	var number uint = 5;
+	var number uint = 10;
 
-	// For loop to perform calculations
+	// For loop to calculate factorial
 	for i=1; i<=number; i++{
 		
 		output = output * i;
-
 	}
+
+	// For loop to calculate factorial
+	for k =1; k<=number; k++{
+		
+		stringSum := strconv.Format
+		
+	}
+	
 	// Print result of calcFactorial to the screen
-	fmt.Printf("%d! =  %d",number,output)
+	fmt.Printf("%d! =  %d\n",number,output)
+
+	// Print result of sum of factorial digits to the screen
+	fmt.Printf("Sum of numbers in factorial result = %d", sum)
 	
 }
 
